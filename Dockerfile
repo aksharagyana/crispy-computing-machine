@@ -18,7 +18,7 @@ RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
     && ln -s ~/.pkenv/bin/* /usr/local/bin
 
 RUN curl -o /usr/local/bin/sops -L https://github.com/getsops/sops/releases/download/${SOPS_VERSION}/sops-${SOPS_VERSION}.linux.amd64 \
-    &&  chmod +x /usr/local/bin/sops \
+    &&  chmod +x /usr/local/bin/sops
 
 RUN curl -L "$(curl -s https://api.github.com/repos/tenable/terrascan/releases/latest | grep -o -E "https://.+?_Darwin_x86_64.tar.gz")" > terrascan.tar.gz \
     && tar -xf terrascan.tar.gz terrascan \
