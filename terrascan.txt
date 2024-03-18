@@ -1,0 +1,1324 @@
+
+
+Scan Errors -
+
+	IaC Type            :	terraform
+	Directory           :	/code/lib
+	Error Message       :	directory '/code/lib' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	terraform
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	directory '/code/lib/archetype_definitions' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	terraform
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	directory '/code/lib/policy_assignments' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	terraform
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	directory '/code/lib/policy_definitions' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	terraform
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	directory '/code/lib/policy_set_definitions' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	terraform
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	directory '/code/lib/role_definitions' has no terraform config files
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/.github/workflows
+	Error Message       :	error while loading iac file '/code/.github/workflows/docker-publish.yml', err: failed to find valid Resources key in file: /code/.github/workflows/docker-publish.yml
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_default_empty.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_default_empty.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_connectivity.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_connectivity.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_corp.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_corp.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_decommissioned.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_decommissioned.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_identity.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_identity.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_landing_zones.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_landing_zones.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_management.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_management.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_online.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_online.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_platform.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_platform.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_root.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_root.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_sandboxes.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_sandboxes.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/archetype_definitions
+	Error Message       :	error while loading iac file '/code/lib/archetype_definitions/archetype_definition_es_sap.tmpl.json', err: failed to find valid Resources key in file: /code/lib/archetype_definitions/archetype_definition_es_sap.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_audit_appgw_waf.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_audit_appgw_waf.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_audit_pednszones.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_audit_pednszones.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_audit_unusedresources.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_audit_unusedresources.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_appgw_without_waf.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_appgw_without_waf.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_classic_resources.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_classic_resources.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_databricks_public_ip.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_databricks_public_ip.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_databricks_sku.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_databricks_sku.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_databricks_vnet.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_databricks_vnet.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_hybridnetworking.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_hybridnetworking.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_ip_forwarding.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_ip_forwarding.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_mgmtports_internet.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_mgmtports_internet.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_priv_esc_aks.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_priv_esc_aks.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_private_dns_zones.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_private_dns_zones.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_privileged_aks.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_privileged_aks.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_public_endpoints.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_public_endpoints.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_public_ip.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_public_ip.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_public_ip_on_nic.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_public_ip_on_nic.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_rdp_from_internet.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_rdp_from_internet.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_resource_locations.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_resource_locations.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_resource_types.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_resource_types.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_rsg_locations.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_rsg_locations.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_storage_http.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_storage_http.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_subnet_without_nsg.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_subnet_without_nsg.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_subnet_without_udr.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_subnet_without_udr.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deny_unmanageddisk.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deny_unmanageddisk.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_aks_policy.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_aks_policy.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_asc_monitoring.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_asc_monitoring.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_azactivity_log.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_azactivity_log.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_azsqldb_auditing.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_azsqldb_auditing.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_log_analytics.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_log_analytics.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_mdendpoints.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_mdendpoints.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_config.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_config.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_ossdb.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_ossdb.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_sqlatp.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_mdfc_sqlatp.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_private_dns_zones.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_private_dns_zones.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_resource_diag.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_resource_diag.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_sql_db_auditing.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_sql_db_auditing.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_sql_security.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_sql_security.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_sql_tde.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_sql_tde.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_sql_threat.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_sql_threat.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_vm_backup.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_vm_backup.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_vm_monitoring.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_vm_monitoring.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_deploy_vmss_monitoring.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_deploy_vmss_monitoring.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enable_ddos_vnet.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enable_ddos_vnet.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_acsb.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_acsb.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_aks_https.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_aks_https.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_alz_decomm.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_alz_decomm.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_alz_sandbox.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_alz_sandbox.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_gr_keyvault.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_gr_keyvault.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_assignments
+	Error Message       :	error while loading iac file '/code/lib/policy_assignments/policy_assignment_es_enforce_tls_ssl.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_assignments/policy_assignment_es_enforce_tls_ssl.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_append_appservice_httpsonly.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_append_appservice_httpsonly.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_append_appservice_latesttls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_append_appservice_latesttls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_append_kv_softdelete.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_append_kv_softdelete.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_append_redis_disablenonsslport.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_append_redis_disablenonsslport.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_append_redis_sslenforcement.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_append_redis_sslenforcement.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_azurehybridbenefit.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_azurehybridbenefit.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_disks_unusedresourcescostoptimization.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_disks_unusedresourcescostoptimization.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_machinelearning_privateendpointid.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_machinelearning_privateendpointid.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_privatelinkdnszones.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_privatelinkdnszones.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_publicipaddresses_unusedresourcescostoptimization.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_publicipaddresses_unusedresourcescostoptimization.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_audit_serverfarms_unusedresourcescostoptimization.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_audit_serverfarms_unusedresourcescostoptimization.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_aa_child_resources.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_aa_child_resources.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_appgw_without_waf.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_appgw_without_waf.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_appserviceapiapp_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_appserviceapiapp_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_appservicefunctionapp_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_appservicefunctionapp_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_appservicewebapp_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_appservicewebapp_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_databricks_nopublicip.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_databricks_nopublicip.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_databricks_sku.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_databricks_sku.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_databricks_virtualnetwork.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_databricks_virtualnetwork.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecureauth.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecureauth.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecurekerberos.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecurekerberos.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecuresmbchannel.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecuresmbchannel.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecuresmbversions.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_fileservices_insecuresmbversions.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_aks.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_aks.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_compute_subnetid.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_compute_subnetid.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_compute_vmsize.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_compute_vmsize.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_computecluster_remoteloginportpublicaccess.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_computecluster_remoteloginportpublicaccess.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_computecluster_scale.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_computecluster_scale.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_hbiworkspace.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_hbiworkspace.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_publicaccesswhenbehindvnet.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_publicaccesswhenbehindvnet.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_machinelearning_publicnetworkaccess.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_machinelearning_publicnetworkaccess.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_mgmtports_from_internet.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_mgmtports_from_internet.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_mysql_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_mysql_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_postgresql_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_postgresql_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_private_dns_zones.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_private_dns_zones.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_publicendpoint_mariadb.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_publicendpoint_mariadb.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_publicip.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_publicip.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_rdp_from_internet.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_rdp_from_internet.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_redis_http.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_redis_http.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_sql_mintls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_sql_mintls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_sqlmi_mintls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_sqlmi_mintls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_storage_mintls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_storage_mintls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_storage_sftp.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_storage_sftp.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_storageaccount_customdomain.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_storageaccount_customdomain.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_subnet_without_nsg.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_subnet_without_nsg.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_subnet_without_penp.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_subnet_without_penp.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_subnet_without_udr.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_subnet_without_udr.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_udr_with_specific_nexthop.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_udr_with_specific_nexthop.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_vnet_peer_cross_sub.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_vnet_peer_cross_sub.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_vnet_peering.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_vnet_peering.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deny_vnet_peering_to_non_approved_vnets.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deny_vnet_peering_to_non_approved_vnets.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_denyaction_activitylogs.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_denyaction_activitylogs.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_denyaction_diagnosticlogs.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_denyaction_diagnosticlogs.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_asc_securitycontacts.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_asc_securitycontacts.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_budget.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_budget.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_custom_route_table.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_custom_route_table.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_ddosprotection.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_ddosprotection.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_aa.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_aa.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_aci.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_aci.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_acr.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_acr.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_analysisservice.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_analysisservice.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_apiforfhir.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_apiforfhir.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_apimgmt.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_apimgmt.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_applicationgateway.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_applicationgateway.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_avdscalingplans.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_avdscalingplans.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_bastion.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_bastion.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cdnendpoints.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cdnendpoints.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cognitiveservices.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cognitiveservices.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cosmosdb.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_cosmosdb.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_databricks.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_databricks.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_dataexplorercluster.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_dataexplorercluster.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_datafactory.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_datafactory.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_dlanalytics.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_dlanalytics.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridsub.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridsub.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridsystemtopic.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridsystemtopic.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridtopic.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_eventgridtopic.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_expressroute.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_expressroute.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_firewall.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_firewall.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_frontdoor.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_frontdoor.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_function.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_function.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_hdinsight.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_hdinsight.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_iothub.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_iothub.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_loadbalancer.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_loadbalancer.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_loganalytics.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_loganalytics.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_logicappsise.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_logicappsise.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mariadb.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mariadb.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mediaservice.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mediaservice.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mlworkspace.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mlworkspace.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mysql.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_mysql.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_networksecuritygroups.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_networksecuritygroups.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_nic.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_nic.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_postgresql.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_postgresql.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_powerbiembedded.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_powerbiembedded.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_rediscache.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_rediscache.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_relay.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_relay.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_signalr.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_signalr.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_sqlelasticpools.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_sqlelasticpools.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_sqlmi.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_sqlmi.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_timeseriesinsights.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_timeseriesinsights.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_trafficmanager.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_trafficmanager.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_virtualnetwork.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_virtualnetwork.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vm.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vm.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vmss.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vmss.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vnetgw.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vnetgw.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vwans2svpngw.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_vwans2svpngw.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_webserverfarm.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_webserverfarm.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_website.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_website.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdappgroup.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdappgroup.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdhostpools.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdhostpools.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdworkspace.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_diagnostics_wvdworkspace.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_firewallpolicy.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_firewallpolicy.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_mysql_sslenforcement.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_mysql_sslenforcement.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_nsg_flowlogs.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_nsg_flowlogs.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_nsg_flowlogs_to_la.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_nsg_flowlogs_to_la.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_postgresql_sslenforcement.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_postgresql_sslenforcement.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_auditingsettings.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_auditingsettings.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_mintls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_mintls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_securityalertpolicies.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_securityalertpolicies.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_tde.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_tde.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_vulnerabilityassessments.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_vulnerabilityassessments.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sql_vulnerabilityassessments_20230706.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sql_vulnerabilityassessments_20230706.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_sqlmi_mintls.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_sqlmi_mintls.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_storage_sslenforcement.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_storage_sslenforcement.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_vm_autoshutdown.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_vm_autoshutdown.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_vnet_hubspoke.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_vnet_hubspoke.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_definitions/policy_definition_es_deploy_windows_domainjoin.json', err: failed to find valid Resources key in file: /code/lib/policy_definitions/policy_definition_es_deploy_windows_domainjoin.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_audit_unusedresourcescostoptimization.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_audit_unusedresourcescostoptimization.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_deny_publicpaasendpoints.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_deny_publicpaasendpoints.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_denyaction_deleteprotection.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_denyaction_deleteprotection.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_deploy_diagnostics_loganalytics.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_deploy_diagnostics_loganalytics.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_deploy_mdfc_config.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_deploy_mdfc_config.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_deploy_private_dns_zones.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_deploy_private_dns_zones.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_deploy_sql_security.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_deploy_sql_security.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_acsb.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_acsb.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_alz_decomm.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_alz_decomm.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_alz_sandbox.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_alz_sandbox.tmpl.json
+
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_encryption_cmk.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_encryption_cmk.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_encrypttransit.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_encrypttransit.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/policy_set_definitions
+	Error Message       :	error while loading iac file '/code/lib/policy_set_definitions/policy_set_definition_es_enforce_guardrails_keyvault.tmpl.json', err: failed to find valid Resources key in file: /code/lib/policy_set_definitions/policy_set_definition_es_enforce_guardrails_keyvault.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	error while loading iac file '/code/lib/role_definitions/role_definition_es_application_owners.tmpl.json', err: failed to find valid Resources key in file: /code/lib/role_definitions/role_definition_es_application_owners.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	error while loading iac file '/code/lib/role_definitions/role_definition_es_network_management.tmpl.json', err: failed to find valid Resources key in file: /code/lib/role_definitions/role_definition_es_network_management.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	error while loading iac file '/code/lib/role_definitions/role_definition_es_network_subnet_contributor.tmpl.json', err: failed to find valid Resources key in file: /code/lib/role_definitions/role_definition_es_network_subnet_contributor.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	error while loading iac file '/code/lib/role_definitions/role_definition_es_security_operations.tmpl.json', err: failed to find valid Resources key in file: /code/lib/role_definitions/role_definition_es_security_operations.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code/lib/role_definitions
+	Error Message       :	error while loading iac file '/code/lib/role_definitions/role_definition_es_subscription_owner.tmpl.json', err: failed to find valid Resources key in file: /code/lib/role_definitions/role_definition_es_subscription_owner.tmpl.json
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	cft
+	Directory           :	/code
+	Error Message       :	error while loading iac file '/code/terrascan.txt', err: unsupported extension for file /code/terrascan.txt
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	kustomize
+	Directory           :	/code
+	Error Message       :	kustomization.y(a)ml file not found in the directory /code
+	
+	-----------------------------------------------------------------------
+	
+	IaC Type            :	helm
+	Directory           :	/code
+	Error Message       :	no helm charts found in directory /code
+	
+	-----------------------------------------------------------------------
+	
+
+
+Violation Details -
+    
+	Description    :	Ensure apt is not used with RUN command for Docker file
+	File           :	Dockerfile
+	Line           :	5
+	Severity       :	MEDIUM
+	
+	-----------------------------------------------------------------------
+	
+
+Scan Summary -
+
+	File/Folder         :	/code
+	IaC Type            :	terraform,docker
+	Scanned At          :	2024-03-15 17:03:11.863725105 +0000 UTC
+	Policies Validated  :	21
+	Violated Policies   :	1
+	Low                 :	0
+	Medium              :	1
+	High                :	0
+	
+

@@ -2,9 +2,9 @@ FROM ubuntu:22.04
 
 ARG SOPS_VERSION=v3.8.1
 
-RUN apt-get -y update \
-    && apt-get install -y --no-install-recommends \
-		curl wget uuid-dev git zip unzip gpg tar ca-certificates apt-transport-https openssh-client openssh-server \
+RUN apt-get update && apt-get install -y \
+		curl wget uuid-dev git zip unzip gpg tar ca-certificates \
+        apt-transport-https openssh-client openssh-server \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
