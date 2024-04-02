@@ -24,14 +24,15 @@ steps:
     terraformVersion: '1.7.5'
 
 - task: TerraformTaskV4@4
+  displayName: Initialize Terraform
   inputs:
     provider: 'azurerm'
     command: 'init'
-    backendAzureRmContainerName: 'env-businessfunname'
-    backendAzureRmKey: 'terraform.tfstate'
-    backendAzureRmResourceGroupName: 'env-sa-rg-name'
-    backendAzureRmStorageAccountName: 'env-sa-name'
-    backendServiceArm: 'ServiceConnectionName'
+    backendServiceArm: 'your-backend-service-connection'
+    backendAzureRmResourceGroupName: 'your-rg-name'
+    backendAzureRmStorageAccountName: 'your-stg-name'
+    backendAzureRmContainerName: 'your-container-name'
+    backendAzureRmKey: 'state.tfstate'
 
 - task: TerraformTaskV4@4
   inputs:
@@ -40,17 +41,24 @@ steps:
     environmentServiceNameAzureRM: 'ServiceConnectionName'
 
 - task: TerraformTaskV4@4
+  name: terraformPlan
+  displayName: Create Terraform Plan
   inputs:
     provider: 'azurerm'
     command: 'plan'
-    commandOptions: '-auto-approve'
-    environmentServiceNameAzureRM: 'ServiceConnectionName'
+    commandOptions: '-out main.tfplan'
+    environmentServiceNameAzureRM: 'your-environment-service-connection'
 
+# Only runs if the 'terraformPlan' task has detected changes the in state. 
 - task: TerraformTaskV4@4
+  displayName: Apply Terraform Plan
+  condition: eq(variables['terraformPlan.changesPresent'], 'true')
   inputs:
     provider: 'azurerm'
     command: 'apply'
-    commandOptions: '-auto-approve'
-    environmentServiceNameAzureRM: 'ServiceConnectionName'
+    commandOptions: 'main.tfplan'
+    environmentServiceNameAzureRM: 'your-environment-service-connection'
+
+
 
 
