@@ -32,7 +32,12 @@ steps:
     backendAzureRmResourceGroupName: 'env-sa-rg-name'
     backendAzureRmStorageAccountName: 'env-sa-name'
     backendServiceArm: 'ServiceConnectionName'
-    
+
+- task: TerraformTaskV4@4
+  inputs:
+    provider: 'azurerm'
+    command: 'validate'
+    environmentServiceNameAzureRM: 'ServiceConnectionName'
 
 - task: TerraformTaskV4@4
   inputs:
