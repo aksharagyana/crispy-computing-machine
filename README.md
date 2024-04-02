@@ -38,3 +38,42 @@ EOF`
       5E9B922FF457700C2673DCF83B4E4CF8A75DA160`
 
 Notes: (https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024)https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/ba-p/3798024
+https://mthai.medium.com/how-to-run-terraform-tasks-in-azure-devops-273935089536
+
+
+TerraformTaskV4
+https://github.com/microsoft/azure-pipelines-terraform/tree/main/Tasks/TerraformTask/TerraformTaskV4
+Parameters of the task
+
+    Display name*: Provide a name to identify the task among others in your pipeline.
+
+    Provider*: Select the provider in which your resources will be managed by Terraform. Currently, the following providers are supported:
+        azurerm
+        aws
+        gcp
+
+    Command*: Select the terraform command to execute. Currently, the following commands are supported:
+        init
+        validate
+        plan
+        apply
+        destroy
+        show
+        output
+        custom
+
+    Configuration directory*: Select the directory that contains all the relevant terraform config (.tf) files. The task intends to use Terraform to build infrastructure on one provider at a time. So, all the config files in the configuration directory together should not specify more than one provider.
+
+    Additional command arguments*: Provide any additional arguments for the selected command either as key-value pairs(-key=value) or as command line flags(-flag). Multiple options can also be provided delimited by spaces(-key1=value1 -key2=value2 -flag1 -flag2).
+
+Examples: - -out=tfplan (for terraform plan) - tfplan -auto-approve (for terraform apply)
+
+Options specific to terraform init command
+
+    Options specific to AzureRM backend configuration
+        Azure subscription*: Select the Azure subscription to use for AzureRM backend configuration
+        Resource group*: Select the name of the resource group in which you want to store the terraform remote state file
+        Storage account*: Select the name of the storage account belonging to the selected resource group in which you want to store the terraform remote state file
+        Container*: Select the name of the Azure Blob container belonging to the storage account in which you want to store the terraform remote state file
+        Key*: Specify the relative path to the state file inside the selected container. For example, if you want to store the state file, named terraform.tfstate, inside a folder, named tf, then give the input "tf/terraform.tfstate"
+
