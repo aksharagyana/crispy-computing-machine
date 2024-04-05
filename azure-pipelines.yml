@@ -8,6 +8,7 @@ resources:
   repositories:
     - repository: templates
       type: github
+      endpoint: aksharagyana
       name: aksharagyana/animated-robot
       ref: refs/heads/main
 
