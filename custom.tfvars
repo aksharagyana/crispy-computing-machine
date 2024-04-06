@@ -1,0 +1,6 @@
+connectivity_location   = "eus"
+default_location = "eastus"
+library_path     = ""
+private_dns_zone_prefix = "cwp"
+root_id          = "CW"
+scope_id         = "/subscriptions/742bf1f6-c631-4ac1-9f3a-0f807b47386e"
