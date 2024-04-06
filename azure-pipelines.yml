@@ -25,8 +25,8 @@ trigger:
 extends:
   template: tf-pipeline.yml@templates
   parameters:
-    tfvars: "/s/custom.tfvars"
-    tfModulePath: "/s"
+    tfvars: "$(Pipeline.Workspace)/custom.tfvars"
+    tfModulePath: "$(Pipeline.Workspace)"
     azServiceConnection: "scncwdev"
     tfStateAzSaRG: "saroottf"
     tfStateAzSa: "sacwtfstate"
