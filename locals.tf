@@ -9,15 +9,15 @@ locals {
 # The following locals are used to convert basic input
 # variables to locals before use elsewhere in the module
 locals {
-  root_id                 = var.root_id
-  scope_id                = var.scope_id
+  root_id  = var.root_id
+  scope_id = var.scope_id
   #  archetype_id            = var.archetype_id
   #  parameters              = var.parameters
   #  enforcement_mode        = var.enforcement_mode
   #  access_control          = var.access_control
-  library_path            = var.library_path
+  library_path = var.library_path
   #  template_file_variables = var.template_file_variables
-  default_location        = var.default_location
+  default_location = var.default_location
 }
 
 # The following locals are used in template functions to provide values

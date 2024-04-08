@@ -9,6 +9,6 @@ resource "azurerm_policy_definition" "policy_definition" {
   management_group_id = azurerm_management_group.mg_cw.id
 
   policy_rule = jsonencode(each.value["properties"]["policyRule"])
-  metadata = jsonencode(each.value["properties"]["metadata"])
-  parameters =  jsonencode(each.value["properties"]["parameters"])
+  metadata    = jsonencode(each.value["properties"]["metadata"])
+  parameters  = jsonencode(each.value["properties"]["parameters"])
 }

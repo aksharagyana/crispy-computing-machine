@@ -1,7 +1,7 @@
 resource "azurerm_management_group_policy_assignment" "policy_assignment" {
-  for_each             = local.builtin_policy_assignments_dataset_from_json
-  name                 = each.value["name"]
-  location             = each.value["location"]
+  for_each = local.builtin_policy_assignments_dataset_from_json
+  name     = each.value["name"]
+  location = each.value["location"]
   dynamic "identity" {
     for_each = lower(each.value["identity"]["type"]) == "systemassigned" || lower(each.value["identity"]["type"]) == "userAssigned" ? [1] : []
     content {
