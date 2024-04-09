@@ -31,7 +31,7 @@ extends:
     tfStateAzSaRG: "saroottf"
     tfStateAzSa: "sacwtfstate"
     tfStateAzSaCont: "tfstate"
-    tfworkspace:
+    envInstallList:
       - "devlevel0"
 
 
