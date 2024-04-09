@@ -11,4 +11,5 @@ resource "azurerm_policy_definition" "policy_definition" {
   policy_rule = jsonencode(each.value["properties"]["policyRule"])
   metadata    = jsonencode(each.value["properties"]["metadata"])
   parameters  = jsonencode(each.value["properties"]["parameters"])
+
 }

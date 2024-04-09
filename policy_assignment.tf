@@ -22,4 +22,8 @@ resource "azurerm_management_group_policy_assignment" "policy_assignment" {
   parameters = jsonencode(each.value["properties"]["parameters"])
   not_scopes = each.value["properties"]["notScopes"]
 
+  depends_on = [
+    azurerm_policy_definition.policy_definition,
+    azurerm_policy_set_definition.policy_set_definition
+  ]
 }

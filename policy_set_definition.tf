@@ -18,4 +18,5 @@ resource "azurerm_policy_set_definition" "policy_set_definition" {
     }
   }
   metadata = jsonencode(each.value["properties"]["metadata"])
+  depends_on = [azurerm_policy_definition.policy_definition]
 }
