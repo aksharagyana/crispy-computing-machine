@@ -31,57 +31,9 @@ extends:
     tfStateAzSaRG: "saroottf"
     tfStateAzSa: "sacwtfstate"
     tfStateAzSaCont: "tfstate"
-    env: "dev"
-    app: "level0"
+    tfworkspace:
+      - "devlevel0"
 
-#steps:
-#- script: echo Hello, world!
-#  displayName: 'Run a one-line script'
-#
-#- script: |
-#    echo Add other tasks to build, test, and deploy your project.
-#    echo See https://aka.ms/yaml
-#  displayName: 'Run a multi-line script'
-#
-#- task: TerraformInstaller@1
-#  inputs:
-#    terraformVersion: '1.7.5'
-#
-#- task: TerraformTaskV4@4
-#  displayName: Initialize Terraform
-#  inputs:
-#    provider: 'azurerm'
-#    command: 'init'
-#    backendServiceArm: 'your-backend-service-connection'
-#    backendAzureRmResourceGroupName: 'your-rg-name'
-#    backendAzureRmStorageAccountName: 'your-stg-name'
-#    backendAzureRmContainerName: 'your-container-name'
-#    backendAzureRmKey: 'state.tfstate'
-#
-#- task: TerraformTaskV4@4
-#  inputs:
-#    provider: 'azurerm'
-#    command: 'validate'
-#    environmentServiceNameAzureRM: 'ServiceConnectionName'
-#
-#- task: TerraformTaskV4@4
-#  name: terraformPlan
-#  displayName: Create Terraform Plan
-#  inputs:
-#    provider: 'azurerm'
-#    command: 'plan'
-#    commandOptions: '-out main.tfplan'
-#    environmentServiceNameAzureRM: 'your-environment-service-connection'
-#
-## Only runs if the 'terraformPlan' task has detected changes the in state.
-#- task: TerraformTaskV4@4
-#  displayName: Apply Terraform Plan
-#  condition: eq(variables['terraformPlan.changesPresent'], 'true')
-#  inputs:
-#    provider: 'azurerm'
-#    command: 'apply'
-#    commandOptions: 'main.tfplan'
-#    environmentServiceNameAzureRM: 'your-environment-service-connection'
 
 
 
