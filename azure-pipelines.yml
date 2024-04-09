@@ -31,10 +31,13 @@ extends:
     tfStateAzSa: "sacwtfstate"
     tfStateAzSaCont: "tfstate"
     envInstallList:
-      - workspace: devlevel0
+      - workspace: level0
+        env: dev
         tfvars: custom.tfvars
-      - workspace: devenv-level0
+      - workspace: level0
+        env: test
         tfvars: custom.tfvars
+
 
 
 
