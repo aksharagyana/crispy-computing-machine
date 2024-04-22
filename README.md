@@ -79,3 +79,7 @@ Options specific to terraform init command
 
 Standard terraform run commands in Ado - https://spacelift.io/blog/terraform-azure-devops
 https://devopsjournal.io/blog/2020/11/08/Azure-DevOps-Git-Authenticate-With-PAT
+
+git config --global user.email "sandeep.kotha@coalesceworks.uk"
+git config --global user.name "Sandeep Kotha"
+git config --global url."https://giutuser:rfrftgtgyy@dev.azure.com/".insteadOf https://dev.azure.com
