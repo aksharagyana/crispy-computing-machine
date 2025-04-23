@@ -1,6 +1,6 @@
-FROM ubuntu:22.04
+FROM ubuntu:noble
 
-ARG SOPS_VERSION=v3.8.1
+ARG SOPS_VERSION=v3.10.2
 
 RUN apt-get update && apt-get install -y \
 		curl wget uuid-dev git zip unzip gpg tar ca-certificates \
